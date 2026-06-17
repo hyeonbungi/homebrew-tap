@@ -1,25 +1,25 @@
 class SyncAiClis < Formula
   desc "Detect, install, and keep up to date multiple AI coding CLIs (Claude Code, Codex, Gemini, Kiro, Antigravity) with one command"
   homepage "https://github.com/hyeonbungi/sync-ai-clis"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hyeonbungi/sync-ai-clis/releases/download/v0.3.0/sync-ai-clis-aarch64-apple-darwin.tar.gz"
-      sha256 "d1434759391f829b4c78f7c74475916fcd46c039ba3d6027dc0430b761cbe875"
+      url "https://github.com/hyeonbungi/sync-ai-clis/releases/download/v0.4.0/sync-ai-clis-aarch64-apple-darwin.tar.gz"
+      sha256 "22a99754eb1ce62cb9ffe35ec61976f436a8530034e514bbd328290694d8a607"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hyeonbungi/sync-ai-clis/releases/download/v0.3.0/sync-ai-clis-x86_64-apple-darwin.tar.gz"
-      sha256 "7a7ac1163fa14408db54a9ccb0cce4541e2ff8f9cb872ecaf759ee41ee854756"
+      url "https://github.com/hyeonbungi/sync-ai-clis/releases/download/v0.4.0/sync-ai-clis-x86_64-apple-darwin.tar.gz"
+      sha256 "2228794da93f1f3cb458c977e4284a94c84c322a034990b5ed233927f80ee904"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/hyeonbungi/sync-ai-clis/releases/download/v0.3.0/sync-ai-clis-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1b5efb1c82e33d5703200f3d0b3110fc811ce7ccb2104819ccb56a81484a44b6"
+      url "https://github.com/hyeonbungi/sync-ai-clis/releases/download/v0.4.0/sync-ai-clis-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "063794368d04bf09c814b059af2d6938da89c0dd928057d859907aae8b900cbe"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hyeonbungi/sync-ai-clis/releases/download/v0.3.0/sync-ai-clis-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "842690ce5daccae91084640378d29068f9195b839ffb0667cf6b1848a3a95bc1"
+      url "https://github.com/hyeonbungi/sync-ai-clis/releases/download/v0.4.0/sync-ai-clis-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c64e12789c027ffc52cfcc1e4d7d2bc5847787e78b9eef77eed141a61aea3bd5"
     end
   end
   license "MIT"
